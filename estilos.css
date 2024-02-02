@@ -1,0 +1,75 @@
+:root {
+    --primario: #E5EAF0;
+    --segundo: #f6e3ff;
+    --Blanco: white ;
+
+    --texto: #4b069a;
+    --texto_p: #9a9a9a;
+    --texto_autor: #121212;
+
+    --fuente_principal:'Sora', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--primario);
+    font-family: var(--fuente_principal);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    min-height: 100vh;
+}
+
+section, section img {
+    
+    height: fit-content;
+    border-radius: 10px;
+}
+
+section {
+    background-color: var(--Blanco);
+}
+
+section div {
+    width: 336px;
+    padding: 16px;
+}
+
+section img {
+    width: 336px;
+    margin-bottom: 16px;
+}
+
+section .tag {
+    background-color: var(--segundo);
+    color: var(--texto);
+    padding: 4px 16px;
+    border-radius: 1rem;
+    font-size: 0.625rem;
+    font-weight: bold;
+}
+
+section h1 {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 1.125rem;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    color: var(--texto_p);
+}
+
+section div:nth-child(1){
+    border-bottom: 1.6px solid var(--primario);
+}
+
+section .autor{
+    color: var(--texto_autor);
+    font-size: 0.75rem;
+}
