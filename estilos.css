@@ -1,11 +1,12 @@
 :root {
-    --primario: #E5EAF0;
-    --segundo: #f6e3ff;
-    --Blanco: white ;
-
-    --texto: #4b069a;
-    --texto_p: #9a9a9a;
-    --texto_autor: #121212;
+    --primario: #883AE1;
+    --segundo: #E6D6FC;
+    --Terciario: #E5EAF0;
+    --Cuarto: #FAFAF9;
+    --Quinto: #E5EAF0;
+    --sexto: #20293A;
+    --Septimo: #6C727F;
+    --blanco: white;
 
     --fuente_principal:'Sora', sans-serif;
 }
@@ -13,63 +14,61 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: var(--fuente_principal);
 }
 
 body {
-    background-color: var(--primario);
-    font-family: var(--fuente_principal);
+    background-color: var(--Terciario);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
     display: flex;
     justify-content: center;
     place-items: center;
     min-height: 100vh;
 }
 
-section, section img {
-    
-    height: fit-content;
+.contenedor {
+    width: 368px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor img {
+    width: 336px;
+    height: 152px;
+    margin: 16px;
     border-radius: 10px;
 }
 
-section {
-    background-color: var(--Blanco);
-}
-
-section div {
-    width: 336px;
-    padding: 16px;
-}
-
-section img {
-    width: 336px;
-    margin-bottom: 16px;
-}
-
-section .tag {
+.contenedor .tag {
     background-color: var(--segundo);
-    color: var(--texto);
-    padding: 4px 16px;
-    border-radius: 1rem;
+    color: var(--primario);
     font-size: 0.625rem;
+    border-radius: 50px;
+    padding: 4px;
+    width: 60px;
+    margin-left: 16px;
+    text-align: center;
     font-weight: bold;
 }
 
-section h1 {
-    margin-top: 16px;
-    margin-bottom: 6px;
+.contenedor h1 {
+    margin: 16px 16px 6px;
+    font-weight: 500;
     font-size: 1.125rem;
 }
 
-section p {
-    margin-bottom: 20px;
+.contenedor p {
+    margin: 0 16px 20px;
+    font-weight: 300;
     font-size: 0.875rem;
-    color: var(--texto_p);
+    color: var(--Septimo);
 }
 
-section div:nth-child(1){
-    border-bottom: 1.6px solid var(--primario);
-}
-
-section .autor{
-    color: var(--texto_autor);
+.contenedor .autor {
+    margin: 20px 16px;
     font-size: 0.75rem;
+    color: var(--Septimo);
 }
