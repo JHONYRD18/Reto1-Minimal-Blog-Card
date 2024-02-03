@@ -56,13 +56,13 @@ body {
 
 .contenedor h1 {
     margin: 16px 16px 6px;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.125rem;
 }
 
 .contenedor p {
     margin: 0 16px 20px;
-    font-weight: 300;
+    font-weight: lighter;
     font-size: 0.875rem;
     color: var(--Septimo);
 }
