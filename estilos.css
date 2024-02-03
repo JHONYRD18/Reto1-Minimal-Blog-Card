@@ -43,7 +43,7 @@ body {
     border-radius: 10px;
 }
 
-a {
+.tag {
     background-color: var(--segundo);
     color: var(--primario);
     font-size: 10px;
@@ -52,7 +52,7 @@ a {
     width: 60px;
     margin-left: 16px;
     text-align: center;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 h1 {
