@@ -57,13 +57,13 @@ a {
 
 h1 {
     margin: 16px 16px 6px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.125rem;
 }
 
 p {
     margin: 0 16px 20px;
-    font-weight: 10;
+    font-weight: 300;
     font-size: 0.875rem;
     color: var(--Septimo);
 }
