@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--Terciario);
+    background-color: var(--Cuarto);
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
     display: flex;
     justify-content: center;
